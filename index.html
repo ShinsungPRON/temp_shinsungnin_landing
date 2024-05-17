@@ -1,9 +1,7 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
+<html lang="ko"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>신성인 - 서비스 준비중</title>
+    <title>신성인 - 서비스 베타 진행중</title>
     <style>
         body, html {
             margin: 0;
@@ -31,6 +29,50 @@
             margin-bottom: 20px;
         }
 
+        h1 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .button {
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            color: white;
+            transition: background-color 0.3s ease;
+        }
+
+        .ios-button {
+            background-color: #4a4a4a;
+        }
+
+        .ios-button:hover {
+            background-color: #3a3a3a;
+        }
+
+        .android-button {
+            background-color: #006bff;
+        }
+
+        .android-button:hover {
+            background-color: #0044bb;
+        }
+
         @media (max-width: 768px) {
             .logo {
                 max-width: 80px;
@@ -43,14 +85,29 @@
             p {
                 font-size: 16px;
             }
+
+            .button {
+                font-size: 14px;
+                padding: 8px 16px;
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
         <img src="logo.png" alt="신성인 로고" class="logo">
-        <h1>서비스 준비중입니다.</h1>
+        <h1>서비스 베타 진행중입니다.</h1>
         <p>신성인 서비스를 준비 중입니다. 곧 멋진 서비스로 찾아뵙겠습니다.</p>
+        <div class="button-container">
+            <a href="https://testflight.apple.com/join/xKzhAadr" class="button ios-button">
+                iOS 베타 다운로드
+            </a>
+            <a href="https://onedrive.live.com/?id=F8C75BDCB72AFEDD%2129927&amp;resid=F8C75BDCB72AFEDD%2129927&amp;authkey=%21AAYCzL7h4yiTPtU&amp;cid=f8c75bdcb72afedd" class="button android-button">
+                안드로이드 베타 다운로드
+            </a>
+        </div>
     </div>
-</body>
-</html>
+
+
+
+</body></html>
