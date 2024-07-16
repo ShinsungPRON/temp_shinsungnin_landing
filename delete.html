@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Deletion - 신성인</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: auto;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        p {
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+        .options {
+            margin-bottom: 30px;
+        }
+        .option {
+            margin-bottom: 20px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #d9534f;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .btn:hover {
+            background-color: #c9302c;
+        }
+        .image-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>정보 삭제 요청</h1>
+    <p>신성인 앱에서 계정을 삭제하시려면 아래 선택지 중 하나를 선택해주세요. 계정 삭제 요청을 처리하기 위해 추가 정보가 필요할 수 있습니다.</p>
+    <p style="font-size: 2vw; font-weight: bold; background-color: white; color: #d9534f">디바이스ID는 디버그모드에서 확인하실 수 있습니다.</p>
+    <div class="options">
+        <div class="option">
+            <h2>1. 이메일로 요청하기</h2>
+            <p>이메일을 통해 계정 삭제를 요청하시려면, 다음 형식을 따라 support@shinsung.in 으로 이메일을 보내주세요:</p>
+            <p>
+                <strong>제목:</strong> 계정 삭제 요청 - 신성인<br>
+                <strong>내용:</strong><br>
+                안녕하세요, 신성인 앱에서 계정을 삭제하고자 합니다.<br>
+                디바이스 ID: [여기에 디바이스 ID를 입력해주세요]<br>
+                삭제를 원하시는 기간: [전체 또는 특정 기간(ex. ~2023년까지)]<br>
+                감사합니다.
+            </p>
+            <a href="mailto:support@shinsung.in?subject=Account Deletion Request - 신성인&body=안녕하세요,%0D%0A신성인 앱에서 계정을 삭제하고자 합니다.%0D%0A%0D%0A디바이스 ID: [여기에 디바이스 ID를 입력해주세요]%0D%0A삭제를 원하시는 기간: [전체 또는 특정 기간(ex. ~2023년까지)]%0D%0A%0D%0A감사합니다." class="btn">이메일로 요청하기</a>
+        </div>
+        <div class="option">
+            <h2>2. 카카오톡으로 요청하기</h2>
+            <p>카카오톡을 통해 계정 삭제를 요청하시려면, 아래 링크를 통해 카카오톡 채널로 이동하여 요청 내용을 보내주세요.</p>
+            <p>
+                <strong>요청 내용:</strong><br>
+                안녕하세요, 신성인 앱에서 계정을 삭제하고자 합니다.<br>
+                디바이스 ID: [여기에 디바이스 ID를 입력해주세요]<br>
+                삭제를 원하시는 기간: [전체 또는 특정 기간(ex. ~2023년까지)]<br>
+                감사합니다.
+            </p>
+            <a href="http://pf.kakao.com/_lpuWG" class="btn">카카오톡으로 요청하기</a>
+            <div class="image-container">
+                <img src="kakao.png" alt="카카오톡 요청 예시">
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
