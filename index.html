@@ -1,0 +1,88 @@
+<html lang="ko"><head>
+  <script src="chrome-extension://fgddmllnllkalaagkghckoinaemmogpe/scripts/content/gps.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/64.ico">
+  <title>신성인</title>
+  <style>
+    /* Reset 및 기본 스타일 */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html, body {
+      width: 100%;
+      height: 100%;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .container {
+      max-width: 600px;
+      width: 100%;
+      padding: 20px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .logo {
+      max-width: 100px;
+      margin-bottom: 20px;
+    }
+    .message {
+      font-size: 24px;
+      margin-bottom: 20px;
+      animation: bounce 2s infinite;
+    }
+    @keyframes bounce {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-4px);
+      }
+    }
+    .links a {
+      margin: 0 10px;
+      color: #007bff;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+    .links a:hover {
+      color: #0056b3;
+    }
+    @media (max-width: 768px) {
+      .message {
+        font-size: 20px;
+      }
+      .logo {
+        max-width: 80px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="logo.png" alt="신성인 로고" class="logo">
+    <p class="message">2025 신입생을 위한 재단장 중입니다!</p>
+    <div class="links">
+      <a href="/policy">서비스 이용약관</a>
+      <a href="/privacy">개인정보처리방침</a>
+    </div>
+  </div>
+
+
+
+<script>
+  (function(){var w=window;if(w.ChannelIO){return w.console.error("ChannelIO script included twice.");}var ch=function(){ch.c(arguments);};ch.q=[];ch.c=function(args){ch.q.push(args);};w.ChannelIO=ch;function l(){if(w.ChannelIOInitialized){return;}w.ChannelIOInitialized=true;var s=document.createElement("script");s.type="text/javascript";s.async=true;s.src="https://cdn.channel.io/plugin/ch-plugin-web.js";var x=document.getElementsByTagName("script")[0];if(x.parentNode){x.parentNode.insertBefore(s,x);}}if(document.readyState==="complete"){l();}else{w.addEventListener("DOMContentLoaded",l);w.addEventListener("load",l);}})();
+
+  ChannelIO('boot', {
+    "pluginKey": "56e41506-b20e-4a82-910c-f57fa32480b0"
+  });
+</script>
+
+</body></html>
